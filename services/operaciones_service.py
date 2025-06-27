@@ -15,3 +15,18 @@ def sumar(a: float, b: float) -> float:
         float: Resultado de la suma.
     """
     return a + b
+
+
+
+def multiplicar(a: float, b: float) -> float:
+    """
+    multiplica dos números.
+
+    Args:
+        a (float): Primer número.
+        b (float): Segundo número.
+
+    Returns:
+        float: Resultado de la suma.
+    """
+    return a * b

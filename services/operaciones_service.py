@@ -27,6 +27,21 @@ def multiplicar(a: float, b: float) -> float:
         b (float): Segundo número.
 
     Returns:
-        float: Resultado de la suma.
+        float: Resultado de la multiplicacion.
     """
     return a * b
+
+def dividir(a: float, b: float) -> float:
+    """
+    divide dos números.
+
+    Args:
+        a (float): Primer número.
+        b (float): Segundo número.
+
+    Returns:
+        float: Resultado de la división.
+    """
+    if b == 0:
+        return "Error: No se puede dividir entre cero"
+    return a / b
